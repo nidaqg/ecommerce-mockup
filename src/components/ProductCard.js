@@ -6,7 +6,7 @@ function ProductCard(props) {
             <div className="card localCard">
                  <img
                  src={props.src}
-                 className="img-fluid"
+                 className="img-fluid hoverCard"
                  alt="product"
                  />
              </div>

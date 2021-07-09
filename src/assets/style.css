@@ -40,4 +40,22 @@ box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   .localCard {
     height: 100%;
     width: 100%;
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
   }
+
+
+  .hoverCard {
+    transition-timing-function: linear;
+    transition-duration: 0.35s;  
+  }
+
+  .hoverCard:hover {
+    opacity: 0;
+    transition-timing-function: linear;
+   transition-duration: 0.350s;
+  }
+
+
