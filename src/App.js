@@ -7,6 +7,7 @@ import {
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Products from './pages/Products';
+import Details from  './pages/Details';
 
 
 
@@ -25,6 +26,9 @@ function App() {
         </Route>
         <Route exact path={'/products'}>
           <Products/>
+        </Route>
+        <Route exact path={'/details'}>
+          <Details/>
         </Route>
     </Switch>
     </Router>

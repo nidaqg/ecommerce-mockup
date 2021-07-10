@@ -17,7 +17,6 @@ function Header() {
       <div className="navbar-nav">
         <Link className="nav-link active" aria-current="page" to='/home'>Home</Link>
         <Link className="nav-link" to='/products'>Products</Link>
-        <Link className="nav-link" to='/login'>Login</Link>
       </div>
     </div>
   </div>
