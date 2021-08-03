@@ -22,7 +22,7 @@ function Products() {
         <>
         <Wrapper>
         <div className="container-fluid">
-        <div className="row row-cols-1 row-cols-lg-3 row-cols-md-2 m-5 g-5">
+        <div className="row row-cols-1 row-cols-lg-3 row-cols-md-2 m-5 g-5 pb-5">
             
             {productArray.map((product)=> (
 
